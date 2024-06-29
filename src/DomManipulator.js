@@ -13,7 +13,7 @@ export default function pageFill(data){
         const countrysval = document.querySelector(".countrysval");
 
         city.innerText = data.name;
-        weather_icon_img.setAttribute("src",data.weather_icon)
+        weather_icon_img.src="https:"+data.weather_icon
         temp.innerText = data.temp+"°C";
         weather_txt.innerText = data.weather_text;
         last_updated.innerText = data.last_update;

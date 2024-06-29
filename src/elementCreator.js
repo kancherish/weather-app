@@ -18,7 +18,7 @@ export default function LoadingScreen() {
     img.src = load
 
     element.appendChild(img);
-    // element.textContent = 'Loading';
+    
 
     return element
 
