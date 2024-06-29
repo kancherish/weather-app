@@ -26,7 +26,7 @@ export default function searchClickListen() {
                     Ls.remove();
                     pageFill(data)
                 })
-                .catch((data) => {
+                .catch(() => {
                     Ls.remove();
                     window.alert("please check if the name is valid and your connection coz we failed to fetch data")
                 })
