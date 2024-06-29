@@ -1,5 +1,5 @@
 import getWeatherInfo from "./getWeatherInfo"
-import pageFill from "./DomManipulator";
+import pageFill, { updateDatalist } from "./DomManipulator";
 import LoadingScreen from "./elementCreator";
 
 
@@ -25,6 +25,7 @@ export default function searchClickListen() {
                 .then((data) => {
                     Ls.remove();
                     pageFill(data)
+                    queryBox.value = ""
                 })
                 .catch(() => {
                     Ls.remove();
