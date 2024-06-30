@@ -27,7 +27,6 @@ body{
     padding: 0.4rem;
     padding-bottom: 1.1rem;
     border-bottom: 3px solid #00f2fe;
-    height: 11vh;
 }
 .title{
     background-color: rgba(254, 254, 254, 0.3);
@@ -38,7 +37,6 @@ body{
     text-shadow: 1px 1px 5px #0F0F0F; 
 }
 .main{
-    height: 83vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,7 +158,6 @@ body{
     font-size: 1.4rem;
 }
 .footer{
-    height:6vh;
     border: 2px solid #00f2fe;
     padding: 0.5rem;
     color: aliceblue;
