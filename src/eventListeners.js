@@ -23,10 +23,6 @@ export default function searchClickListen() {
             document.querySelector(".main").appendChild(Ls)
             getWeatherInfo(query)
                 .then((data) => {
-                    window.alert(data);
-                    if(!data){
-                        window.alert(data);
-                    }
                     Ls.remove();
                     pageFill(data)
                     queryBox.value = ""

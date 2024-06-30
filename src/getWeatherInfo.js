@@ -7,12 +7,10 @@ export default function getWeatherInfo(location){
         fetch(url)
         .then((res)=>{
             if(res.ok){
-                window.alert(res)
                 return res.json()
             }
             else
             {
-                window.alert("hey")
                 reject(false)
             }
         })
