@@ -10,8 +10,8 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
     background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     backdrop-filter: grayscale(20%);
     font-family: 'acme', Courier, monospace;
@@ -28,9 +28,9 @@ body{
 }
 .title{
     background-color: rgba(254, 254, 254, 0.3);
-    padding: 0.9rem;
+    padding: 0.5rem;
     border-radius: 15px;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     color: aliceblue;
     text-shadow: 1px 1px 5px #0F0F0F; 
 }
