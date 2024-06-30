@@ -24,7 +24,7 @@ export default function searchClickListen() {
             getWeatherInfo(query)
                 .then((data) => {
                     if(!data){
-                        window.alert("data");
+                        window.alert(data);
                     }
                     Ls.remove();
                     pageFill(data)
