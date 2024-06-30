@@ -1,7 +1,7 @@
 export default function getWeatherInfo(location){
     const api_key="00ddd4d1296a4b6c8c171338242506";
 
-    const url = `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${location}&aqi=yes`
+    const url = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${location}&aqi=yes`
     
     return new Promise((resolve,reject)=>{
         fetch(url)
@@ -11,6 +11,7 @@ export default function getWeatherInfo(location){
             }
             else
             {
+                window.alert("hey")
                 reject(false)
             }
         })
