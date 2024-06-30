@@ -1,5 +1,5 @@
 export default function getWeatherInfo(location){
-    const api_key="00ddd4d1296a4b6c8c171338242506";
+    const api_key="e3ea521ba650487d8e455609243006";
 
     const url = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${location}&aqi=yes`
     

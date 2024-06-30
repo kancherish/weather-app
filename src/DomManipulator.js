@@ -24,4 +24,4 @@ export default function pageFill(data){
         countrysval.innerText = data.country;
 
     }
-}
+} 
