@@ -12,6 +12,9 @@
 body{
     min-height: 100vh;
     min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     backdrop-filter: grayscale(20%);
     font-family: 'acme', Courier, monospace;
